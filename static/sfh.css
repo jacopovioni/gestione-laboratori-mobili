@@ -1,0 +1,32 @@
+body {
+    background-image: url('logo1.jpg'); /* Imposta il percorso dell'immagine di sfondo */
+    background-size: 1666px 1041px; /* Fai in modo che l'immagine copra tutto lo sfondo */
+    background-position: down; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Impedisci la ripetizione dell'immagine */
+     /* Imposta il tipo di carattere */
+    margin-right: 10px; /* Rimuovi i margini */
+    padding: 0; /* Rimuovi il padding */
+}
+
+header {
+    text-align: left;
+    padding: 50px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: white; /* Colore del testo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Aggiungi ombra al testo */
+}
+
+main {
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    
+   
+}
+
+footer {
+    text-align: left;
+    padding: 20px 0;
+    color:white
+}

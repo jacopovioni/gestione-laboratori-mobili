@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+	<link rel="icon" href="/static/user.png" type="image/png">
+	
+    <link rel="stylesheet" href="/static/styles.css"> 
+	<!--<link rel="stylesheet" href="/static/sfondo.css"> -->
+	<link rel="stylesheet" href="/static/sfondo.css">
+	
+</head>
+<body>
+    <header>
+		<h1>Login</h1>
+		
+    </header>
+    <main>
+		
+        <!-- Form per la prenotazione dei laboratori -->
+        <form id="booking-form", action="/homepage" method="get">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>	
+			<label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+			<br>
+			<br>
+			<br>
+            <!-- Altri campi del modulo di prenotazione -->
+            <button type="submit">Accedi</button>
+        </form>
+    </main>
+    <footer class="text-bottom-left">
+		<br>
+		<br>
+		<br>
+		<br>
+        <p>&copy; Istituto Superiore L.Einaudi di Correggio</p>
+    </footer>
+    <script src="/static/script.js"></script>
+	
+</body>
+</html>
